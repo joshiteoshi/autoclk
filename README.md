@@ -12,12 +12,12 @@ Really? You actually want to know how to use this? Ok then. Just know I'm not ed
     ```
     pip install pynput
     ````
-3. Clone this repository or just download the `clkauto.py` file
-4. From the directory you downloaded `clkauto.py` to, run the auto clicker using
+3. Clone this repository or just download the `clkmacro.py` file
+4. From the directory you downloaded `clkmacro.py` to, run the auto clicker using
     ```
-    python3 clkauto.py
+    python3 clkmacro.py
     ```
-    - If this doesn't work, try `py clkauto.py` or `python clkauto.py`
+    - If this doesn't work, try `py clkmacro.py` or `python clkmacro.py`
     - Windows likes to be funny with python aliases
 5. Use ``<Ctrl> + ` `` to toggle the auto clicker on or off
 
@@ -25,7 +25,7 @@ Really? You actually want to know how to use this? Ok then. Just know I'm not ed
 
 1. You can adjust the click rate of the autoclicker at run time using
     ```
-    python3 clkauto.py [clicks per second]
+    python3 clkmacro.py [clicks per second]
     ```
 3. The toggle macro for the autoclicker can be used anywhere; even outside the terminal window thanks to pynput magic
 4. `<Ctrl> + c` kills the program from terminal, like it does most other programs
